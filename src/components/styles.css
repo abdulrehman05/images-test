@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.image-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.image-container {
+  flex: 1 1 28%;
+  display: block;
+  padding: 15px;
+  transition: 0.2s;
+}
+.image-container:hover {
+  padding-block: 7px;
+}
+.image-container i {
+  cursor: pointer;
+}
+.allimg-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon-container {
+  display: block;
+  position: absolute;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.cart-number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  padding: 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  font-size: 15px;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+}
+.totalcost {
+  position: fixed;
+  bottom: 0;
+  background: lightgray;
+  width: 100%;
+  padding: 20px;
+  color: rgb(75, 75, 75);
+}
+.placeorder {
+  padding: 10px;
+  position: absolute;
+  right: 70px;
+  top: 10px;
+  font-weight: bold;
+  background: purple;
+  color: white;
+  border: 1px solid rgb(203, 195, 227);
+}
+.placeorder:hover {
+  background: rgb(240, 240, 240);
+  border: 1px solid purple;
+  color: purple;
+  cursor: pointer;
+}
+.cart-image-container img {
+  height: 100px;
+  width: 200px;
+  object-fit: cover;
+}
+.cart-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 15px;
+  padding-block: 5px;
+  flex-wrap: wrap;
+  border: 1px solid gray;
+  margin: 6px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgb(219, 219, 219);
+}
+.header .link {
+  text-decoration: none;
+  font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: purple;
+  font-weight: 500;
+}
+.link:hover {
+  color: plum;
+}
+.cartstuff {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.cartstuff h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: gray;
+  font-weight: 500;
+}
+.clearcart {
+  font-size: 30px;
+  padding-inline: 20px;
+}
+.cartpadding {
+  height: 80px;
+}
+.hoverred:hover {
+  color: red;
+}
+.hovergreen:hover {
+  color: green;
+}
+.red:hover {
+  color: black;
+}
+.green:hover {
+  color: black;
+}
